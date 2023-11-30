@@ -1,0 +1,62 @@
+#background {
+  background-image: url("/background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .5;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: -1;
+}
+
+#landing {
+  color: var(--not-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+}
+
+#landing h1, h2 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 5.5rem;
+}
+
+#countdown {
+  display: flex;
+}
+
+#countdown h3 {
+  font-size: 3rem;
+}
+
+#countdown h4 {
+  font-size: 1.5rem;
+}
+
+#countdown span {
+  padding: 0.5rem;
+  width: 6rem;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background: var(--not-black);
+}
+
+/*THIS IS BIG SCREEN*/
+@media screen and (min-width: 795px) {
+  #landing h1, h2 {
+    font-size: 6.5rem;
+  }
+}
