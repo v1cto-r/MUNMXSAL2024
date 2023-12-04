@@ -1,11 +1,13 @@
-
-
 function NotFound () {
 
   return (
     <>
       <main>
-        <h1>Oops! Page not Found</h1>
+        <div id="not-found">
+          <div id='intro'>
+            <h1>Page Not Found</h1>
+          </div>
+        </div>
       </main>
     </>
   )

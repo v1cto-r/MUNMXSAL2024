@@ -1,6 +1,5 @@
 import data from '../data/links.json'
 import img1 from '/tools/img1.webp'
-import download from '/download.svg';
 import '../styles/Tools.css'
 import DoubleButton from './DoubleButton';
 
