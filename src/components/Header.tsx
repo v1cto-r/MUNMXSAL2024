@@ -22,6 +22,13 @@ function Header() {
 
   const {y} = useWindowScroll();
 
+  function getWindowDimensions() {
+    const { innerWidth: width } = window;
+    return {
+      width,
+    };
+  }
+
   useEffect(() => { 
     y>0 ? setScroll(true) : setScroll(false);
     if (y>0) {
@@ -51,7 +58,6 @@ function Header() {
   }
 
   function menuClick (id:string) {
-
     Committees.current!.classList.remove('active');
     Tools.current!.classList.remove('active');
     Sponsors.current!.classList.remove('active');
@@ -74,7 +80,9 @@ function Header() {
         break;
     }
 
-    activate();
+    if(getWindowDimensions().width < 920) {
+      activate();
+    }
   }
 
   return (

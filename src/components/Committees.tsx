@@ -1,6 +1,5 @@
 import data from '../data/committees.json'
 import LazyLoad from 'react-lazy-load';
-import download from '/download.svg'
 import searchIcon from '/search.svg'
 import DoubleButton from './DoubleButton';
 import '../styles/Committees.css'
