@@ -73,6 +73,8 @@ function Header() {
       default:
         break;
     }
+
+    activate();
   }
 
   return (

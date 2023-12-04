@@ -23,7 +23,7 @@
 
 #landing h1, h2 {
   font-family: 'Fredoka', sans-serif;
-  font-size: 5.5rem;
+  font-size: 5rem;
 }
 
 #countdown {
@@ -189,6 +189,6 @@ table td {
 
   table td {
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
