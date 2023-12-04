@@ -80,6 +80,7 @@ function Header() {
         break;
     }
 
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
     if(getWindowDimensions().width < 920) {
       activate();
     }
