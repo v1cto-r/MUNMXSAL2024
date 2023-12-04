@@ -1,7 +1,8 @@
-import data from '../data/Committees.json'
+import data from '../data/committees.json'
 import LazyLoad from 'react-lazy-load';
 import download from '/download.svg'
 import searchIcon from '/search.svg'
+import DoubleButton from './DoubleButton';
 import '../styles/Committees.css'
 import { useEffect, useState } from 'react';
 
@@ -63,24 +64,11 @@ function Committees () {
 }
 
 function CommitteeCard(props:any) {
-  let parts = props.url.split("/");
-  let substring = parts[parts.length - 2];
-  let downloadUrl = "https://drive.google.com/uc?export=download&id=" + substring;
-
-  function openBackground() {
-    window.open(props.url, "_blank");
-  }
-
-  function downloadBackground() {
-    window.open(downloadUrl, "_self");
-  }
-
   return (
     <>
       <section className="committee-card" id={props.id}>
-        <p hidden>{props.id}</p>
         <LazyLoad offset={500} className='committee-img-container'>
-          <img src={props.img} loading="lazy" alt="committee image" className='committee-img'/>
+          <img src={props.img} alt="committee image" className='committee-img'/>
         </LazyLoad>
 
         <div className='committee-info'>
@@ -88,12 +76,7 @@ function CommitteeCard(props:any) {
           <div className='topics'>
             <div className='topic1'>
               <h3 className='committee-topic'>Topic: {props.topic1}</h3>
-              <div className='background-buttons'>
-                <button className='topic-button button' onClick={openBackground}>Background</button>
-                <button className='download-button button' onClick={downloadBackground}>
-                  <img src={download} alt='download icon' className='download-icon'/>
-                </button>
-              </div>
+              <DoubleButton url={props.url} text={"Background"} extraClass={"committee-button"}/>
             </div>
           </div>
         </div>

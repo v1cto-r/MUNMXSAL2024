@@ -6,3 +6,8 @@
   background-color: var(--not-black);
   width: 100vw;
 }
+
+.tools-section {
+  border-image-source: var(--gradient);
+  border-image-slice: 1;
+}

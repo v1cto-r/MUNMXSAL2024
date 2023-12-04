@@ -53,19 +53,13 @@
   background: var(--not-black);
 }
 
-section {
-  display: flex;
-  justify-content: center;
+.landing-section {
   flex-direction: column;
   text-align: left;
-  width: 100%;
-  padding: 2rem 0;
-  height: fit-content;
-  background: var(--not-black);
-  color: var(--not-white);
-  border-bottom: 1rem solid;
-  border-image-slice: 1;
+  justify-content: center;
   border-image-source: var(--gradient);
+  border-image-slice: 1;
+  padding: 2rem 0;
 }
 
 #about-mun .text {
@@ -117,41 +111,6 @@ section h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#schedule-button {
-  display: flex;
-  align-items: center;
-  margin: 0.5rem;
-  width: fit-content;
-  text-align: center;
-  border: none;
-}
-
-#open-button {
-  background-color: var(--mun-blue);
-  color: var(--card-white);
-  border: none;
-  padding: 0.5rem;
-  font-size: 1.5rem;
-  cursor: pointer;
-  transition: 0.1s ease-in-out;
-  height: 3rem;
-  border-radius: 10px 0px 0px 10px;
-  border-right: var(--not-white) 1px solid;
-}
-
-#download-button {
-  background-color: var(--mun-blue);
-  display: flex;
-  color: var(--card-white);
-  border: none;
-  height: 3rem;
-  padding: 0.5rem;
-  font-size: 1.5rem;
-  cursor: pointer;
-  transition: 0.1s ease-in-out;
-  border-radius: 0px 10px 10px 0px;
 }
 
 .days {
@@ -208,10 +167,6 @@ table td {
 
   #about-mun .text {
     width: 80%;
-  }
-
-  section {
-    height: 90vh;
   }
 
   #schedule {

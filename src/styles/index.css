@@ -65,3 +65,60 @@ main {
   font-size: 4rem;
   color: var(--not-white);
 }
+
+section {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  flex-direction: column;
+  border-bottom: 1rem solid;
+  background: var(--not-black);
+  color: var(--not-white);
+}
+
+.double-button {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+  width: fit-content;
+  text-align: center;
+  border: none;
+}
+
+.open-part {
+  background-color: var(--mun-blue);
+  color: var(--card-white);
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  height: 3rem;
+  border-radius: 10px 0px 0px 10px;
+  border-right: var(--not-white) 1px solid;
+}
+
+.download-part {
+  background-color: var(--mun-blue);
+  display: flex;
+  color: var(--card-white);
+  border: none;
+  height: 3rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  border-radius: 0px 10px 10px 0px;
+}
+
+button:hover {
+  background-color: var(--hover-blue);
+  scale: 1.01;
+}
+
+@media screen and (min-width: 795px) {
+  section {
+    flex-direction: row;
+    height: 90vh;
+  }
+}

@@ -8,10 +8,8 @@
 }
 
 .committee-card {
-  display: flex;
   flex-direction: column;
-  width: 100%;
-  border-bottom: var(--not-black) 1rem solid;
+  border-bottom-color: var(--not-black);
 }
 
 .committee-img {
@@ -52,44 +50,8 @@
   width: 100%;
 }
 
-.background-buttons {
-  display: flex;
-  align-items: center;
+.committee-button {
   margin: 0.5rem 0;
-  width: fit-content;
-  text-align: center;
-  border: none;
-}
-
-.topic-button {
-  background-color: var(--mun-blue);
-  color: var(--card-white);
-  border: none;
-  padding: 0.5rem;
-  font-size: 1.5rem;
-  cursor: pointer;
-  transition: 0.1s ease-in-out;
-  height: 3rem;
-  border-radius: 10px 0px 0px 10px;
-  border-right: var(--not-white) 1px solid;
-}
-
-.download-button {
-  background-color: var(--mun-blue);
-  display: flex;
-  color: var(--card-white);
-  border: none;
-  height: 3rem;
-  padding: 0.5rem;
-  font-size: 1.5rem;
-  cursor: pointer;
-  transition: 0.1s ease-in-out;
-  border-radius: 0px 10px 10px 0px;
-}
-
-button:hover {
-  background-color: var(--hover-blue);
-  scale: 1.01;
 }
 
 #search-bar {

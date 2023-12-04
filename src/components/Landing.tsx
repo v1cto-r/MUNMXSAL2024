@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
-import download from '/download.svg'
 import plainLogo from '/plain.svg'
 import data from '../data/schedule.json'
 import pic2 from '/about/Pic2.jpg'
 import '../styles/Landing.css';
+import DoubleButton from './DoubleButton';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -107,7 +107,7 @@ function About () {
 
 function AboutMun(props:any) {
   return (
-    <section id='about-mun'>
+    <section id='about-mun' className='landing-section' >
       <img ref={props.reference} src={plainLogo} alt='MUNMX Logo Without Text'/>
       <div className='text'>
         <h5>About MUNMX Saltillo</h5>
@@ -130,28 +130,11 @@ function Schedule() {
     day2.push(<tr><td>{jsonData.day2[i].time}</td><td>{jsonData.day2[i].event}</td></tr>);
   }
 
-  let parts = jsonData.link.split("/");
-  let substring = parts[parts.length - 2];
-  let downloadUrl = "https://drive.google.com/uc?export=download&id=" + substring;
-
-  function openSchedule() {
-    window.open(jsonData.link, "_blank");
-  }
-
-  function downloadSchedule() {
-    window.open(downloadUrl, "_self");
-  }
-
   return (
-    <section id='schedule'>
+    <section id='schedule' className='landing-section'>
       <div id='titles'>
         <h5>Schedule </h5>
-        <div id='schedule-button'>
-          <button id='open-button' onClick={openSchedule}>Download</button>
-          <button id='download-button' onClick={downloadSchedule}>
-            <img src={download} alt='download icon' className='download-icon'/>
-          </button>
-        </div>
+        <DoubleButton url={jsonData.Link} text={"Download"}/>
       </div>
       <div id='times'>
         <div id='day1' className='days'>
@@ -175,7 +158,7 @@ function Schedule() {
 
 function Photo() {
   return (
-    <section id='photo'>
+    <section id='photo' className='landing-section'>
       <div id='mun-photo'><img src={pic2}/></div>
       
     </section>
