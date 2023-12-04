@@ -1,0 +1,8 @@
+#sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--not-black);
+  width: 100vw;
+}

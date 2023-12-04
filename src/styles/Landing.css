@@ -45,18 +45,195 @@
 
 #about {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  height: fit-content;
   background: var(--not-black);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  padding: 2rem 0;
+  height: fit-content;
+  background: var(--not-black);
+  color: var(--not-white);
+  border-bottom: 1rem solid;
+  border-image-slice: 1;
+  border-image-source: var(--gradient);
+}
+
+#about-mun .text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#about-mun img {
+  display: none;
+  position: absolute;
+  left: 83%;
+  width: 37.5rem;
+  height: 37.5rem;
+}
+
+#about-mun h5, p {
+  width: 80%;
+}
+
+section h5 {
+  font-size: 1.8rem;
+  font-family: 'Fredoka', sans-serif;
+}
+
+#about-mun p {
+  font-size: 1rem;
+}
+
+#schedule {
+  display: flex;
+  justify-content: center;
+}
+
+#titles {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#times {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#schedule-button {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+  width: fit-content;
+  text-align: center;
+  border: none;
+}
+
+#open-button {
+  background-color: var(--mun-blue);
+  color: var(--card-white);
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  height: 3rem;
+  border-radius: 10px 0px 0px 10px;
+  border-right: var(--not-white) 1px solid;
+}
+
+#download-button {
+  background-color: var(--mun-blue);
+  display: flex;
+  color: var(--card-white);
+  border: none;
+  height: 3rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.days {
+  margin: 1rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+  font-family: 'Fredoka', sans-serif;
+  padding: 0.4rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid var(--not-white);
+}
+
+table td {
+  padding: 0.5rem;
+  border: 1px solid var(--not-white);
+}
+
+#mun-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#photo {
+  border: none;
 }
 
 /*THIS IS BIG SCREEN*/
 @media screen and (min-width: 795px) {
   #landing h1, h2 {
     font-size: 6.5rem;
+  }
+
+  #about-mun img {
+    display: block;
+  }
+
+  section h5 {
+    font-size: 3.5rem;
+  }
+
+  #about-mun p {
+    font-size: 1.5rem;
+  }
+
+  #about-mun .text {
+    width: 80%;
+  }
+
+  section {
+    height: 90vh;
+  }
+
+  #schedule {
+    flex-direction: row-reverse;
+  }
+
+  #titles {
+    width: 30%;
+    flex-direction: column;
+  }
+
+  #times {
+    width: 70%;
+    flex-direction: row;
+  }
+
+  h6 {
+    font-size: 2rem;
+  }
+
+  table td {
+    padding: 0.5rem;
+    font-size: 1.2rem;
   }
 }

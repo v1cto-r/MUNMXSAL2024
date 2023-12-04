@@ -1,0 +1,25 @@
+{
+  "link": "https://drive.google.com/drive/u/0/my-drive",
+  "day1": [
+    {"time":"8:00 AM", "event":"Opening Ceremony"},
+    {"time":"9:00 AM", "event":"Keynote"}, 
+    {"time":"10:00 AM", "event":"Breakout Session"}, 
+    {"time":"11:00 AM", "event":"Breakout Session"}, 
+    {"time":"12:00 PM", "event":"Lunch"}, 
+    {"time":"1:00 PM", "event":"Breakout Session"}, 
+    {"time":"2:00 PM", "event":"Breakout Session"}, 
+    {"time":"3:00 PM", "event":"Breakout Session"}, 
+    {"time":"4:00 PM", "event":"Closing Ceremony"}
+  ],
+  "day2": [
+    {"time":"8:00 AM", "event":"Opening Ceremony"},
+    {"time":"9:00 AM", "event":"Keynote"}, 
+    {"time":"10:00 AM", "event":"Breakout Session"}, 
+    {"time":"11:00 AM", "event":"Breakout Session"}, 
+    {"time":"12:00 PM", "event":"Lunch"}, 
+    {"time":"1:00 PM", "event":"Breakout Session"}, 
+    {"time":"2:00 PM", "event":"Breakout Session"}, 
+    {"time":"3:00 PM", "event":"Breakout Session"}, 
+    {"time":"4:00 PM", "event":"Closing Ceremony"}
+  ]
+}

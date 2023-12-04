@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 #root {
-  width: 100vw;
-  height: 100vh;
+  width: 100lvw;
+  height: 100lvh;
   padding: 0;
   margin: 0;
   max-width: none;
@@ -13,6 +13,7 @@
   --not-black: #0A0A0A;
   --back-gray: #2F2F2F;
   --not-white: #F0F0F0;
+  --card-white: #e7dfdf;
   --mun-red: #EF242A;
   --mun-orange: #F78722;
   --mun-yellow: #EFEF24;
@@ -25,6 +26,7 @@
   --head-blue: #00274e;
   --test-blue: #003b75;
   --card-black: #000e1b;
+  --gradient: linear-gradient(90deg, #70C573 6.37%, #40BFB3 18.93%, #03A8E8 30.31%, #2E3D9C 42.49%, #832897 57.66%, #EF242A 71.23%, #F78722 84.61%, #EFEF24 97.7%);
 }
 
 * {
@@ -41,7 +43,25 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   background: var(--not-black);
-  height: 100vh;
-  width: 100vw;
+  height: 100lvh;
+  width: 100lvw;
 }
 
+main {
+  overflow: hidden;
+}
+
+#intro {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0deg, #00274E 10.22%, #004589 80.85%);
+}
+
+#intro h1 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 4rem;
+  color: var(--not-white);
+}

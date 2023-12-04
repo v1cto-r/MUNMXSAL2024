@@ -34,6 +34,26 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path: "sponsors",
+    element: (
+      <>
+        <Header />
+        <Sponsors />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "tools",
+    element: (
+      <>
+        <Header />
+        <Tools />
+        <Footer />
+      </>
+    ),
+  },
+  {
     path: "*",
     element: (
       <>

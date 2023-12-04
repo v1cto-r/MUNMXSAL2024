@@ -7,21 +7,6 @@
   width: 100vw;
 }
 
-#intro {
-  height: 50vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(0deg, #00274E 10.22%, #004589 80.85%);
-}
-
-#intro h1 {
-  font-family: 'Fredoka', sans-serif;
-  font-size: 4rem;
-  color: var(--not-white);
-}
-
 .committee-card {
   display: flex;
   flex-direction: column;

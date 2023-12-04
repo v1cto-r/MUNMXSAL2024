@@ -93,7 +93,7 @@ footer #info {
   border:0;
 }
 
-#sponsors {
+#sponsors-footer {
   border-top: 1px solid var(--not-white);
   margin: 0rem 1rem;
   padding: 1rem 0;
@@ -103,7 +103,7 @@ footer #info {
   justify-content: center;
 }
 
-#sponsors h5 {
+#sponsors-footer h5 {
   color: var(--not-white);
   font-size: 1.5rem;
   font-weight: 400;
@@ -116,7 +116,8 @@ footer #info {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 51, 102, 1);
+  background: #00274e;
+  text-align: center;
 }
 
 #ending p {

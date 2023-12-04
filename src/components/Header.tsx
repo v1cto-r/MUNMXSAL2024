@@ -15,6 +15,11 @@ function Header() {
   const header = useRef<HTMLDivElement>(null);
   const up = useRef<HTMLDivElement>(null);
 
+  const Home = useRef<HTMLAnchorElement>(null);
+  const Committees = useRef<HTMLAnchorElement>(null);
+  const Tools = useRef<HTMLAnchorElement>(null);
+  const Sponsors = useRef<HTMLAnchorElement>(null);
+
   const {y} = useWindowScroll();
 
   useEffect(() => { 
@@ -45,6 +50,31 @@ function Header() {
     nav ? nav.current!.classList.toggle('active') : null;
   }
 
+  function menuClick (id:string) {
+
+    Committees.current!.classList.remove('active');
+    Tools.current!.classList.remove('active');
+    Sponsors.current!.classList.remove('active');
+    Home.current!.classList.remove('active');
+
+    switch (id) {
+      case "home":
+        Home.current!.classList.add('active');
+        break;
+      case "committees":
+        Committees.current!.classList.add('active');
+        break;
+      case "tools":
+        Tools.current!.classList.add('active');
+        break;
+      case "sponsors":
+        Sponsors.current!.classList.add('active');
+        break;
+      default:
+        break;
+    }
+  }
+
   return (
     <>
       <header ref={header} id="header">
@@ -58,16 +88,16 @@ function Header() {
         <nav ref={nav} id="nav">
           <ul>
             <li>
-              <Link to={`/`}>Home</Link>
+              <Link to={`/`} onClick={() => {menuClick("home")}} ref={Home}>Home</Link>
             </li>
             <li>
-              <Link to={`/committees`}>Committees</Link>
+              <Link to={`/committees`} onClick={() => {menuClick("committees")}} ref={Committees}>Committees</Link>
             </li>
             <li>
-              <Link to={`/tools`}>MUN Tools</Link>
+              <Link to={`/tools`} onClick={() => {menuClick("tools")}} ref={Tools}>MUN Tools</Link>
             </li>
             <li>
-              <Link to={`/sponsors`}>Sponsors</Link>
+              <Link to={`/sponsors`} onClick={() => {menuClick("sponsors")}} ref={Sponsors}>Sponsors</Link>
             </li>
           </ul>
         </nav>

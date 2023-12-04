@@ -1,10 +1,14 @@
-
+import '../styles/Sponsors.css'
 
 function Sponsors () {
 
   return (
     <main>
-      <h1>Sponsors</h1> 
+      <div id="sponsors">
+        <div id='intro'>
+          <h1>Sponsors</h1>
+        </div>
+      </div>
     </main>
   )
 }
