@@ -15,19 +15,7 @@ function Header() {
   const header = useRef<HTMLDivElement>(null);
   const up = useRef<HTMLDivElement>(null);
 
-  const Home = useRef<HTMLAnchorElement>(null);
-  const Committees = useRef<HTMLAnchorElement>(null);
-  const Tools = useRef<HTMLAnchorElement>(null);
-  const Sponsors = useRef<HTMLAnchorElement>(null);
-
   const {y} = useWindowScroll();
-
-  function getWindowDimensions() {
-    const { innerWidth: width } = window;
-    return {
-      width,
-    };
-  }
 
   useEffect(() => { 
     y>0 ? setScroll(true) : setScroll(false);
@@ -57,33 +45,10 @@ function Header() {
     nav ? nav.current!.classList.toggle('active') : null;
   }
 
-  function menuClick (id:string) {
-    Committees.current!.classList.remove('active');
-    Tools.current!.classList.remove('active');
-    Sponsors.current!.classList.remove('active');
-    Home.current!.classList.remove('active');
+  const [activeMenu, setActiveMenu] = useState("home");
 
-    switch (id) {
-      case "home":
-        Home.current!.classList.add('active');
-        break;
-      case "committees":
-        Committees.current!.classList.add('active');
-        break;
-      case "tools":
-        Tools.current!.classList.add('active');
-        break;
-      case "sponsors":
-        Sponsors.current!.classList.add('active');
-        break;
-      default:
-        break;
-    }
-
-    window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
-    if(getWindowDimensions().width < 920) {
-      activate();
-    }
+  function handleClick (menu: string) {
+    setActiveMenu(menu);
   }
 
   return (
@@ -99,16 +64,16 @@ function Header() {
         <nav ref={nav} id="nav">
           <ul>
             <li>
-              <Link to={`/`} onClick={() => {menuClick("home")}} ref={Home}>Home</Link>
+              <Link to={`/`} onClick={() => {handleClick("home")}} className={activeMenu === 'home' ? 'active' : ''}>Home</Link>
             </li>
             <li>
-              <Link to={`/committees`} onClick={() => {menuClick("committees")}} ref={Committees}>Committees</Link>
+              <Link to={`/committees`} onClick={() => {handleClick("committees")}} className={activeMenu === 'committees' ? 'active' : ''}>Committees</Link>
             </li>
             <li>
-              <Link to={`/tools`} onClick={() => {menuClick("tools")}} ref={Tools}>MUN Tools</Link>
+              <Link to={`/tools`} onClick={() => {handleClick("tools")}} className={activeMenu === 'tools' ? 'active' : ''}>MUN Tools</Link>
             </li>
             <li>
-              <Link to={`/sponsors`} onClick={() => {menuClick("sponsors")}} ref={Sponsors}>Sponsors</Link>
+              <Link to={`/sponsors`} onClick={() => {handleClick("sponsors")}} className={activeMenu === 'sponsors' ? 'active' : ''}>Sponsors</Link>
             </li>
           </ul>
         </nav>
