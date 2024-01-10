@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     path: "/",
     element: (
       <>
-        <Header />
+        <Header route="home"/>
         <Landing />
         <Footer />
       </>
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
     path: "committees",
     element: (
       <>
-        <Header />
+        <Header route="committees"/>
         <Committees />
         <Footer />
       </>
@@ -37,7 +37,7 @@ const router = createBrowserRouter([
     path: "sponsors",
     element: (
       <>
-        <Header />
+        <Header route="sponsors"/>
         <Sponsors />
         <Footer />
       </>
@@ -47,7 +47,7 @@ const router = createBrowserRouter([
     path: "tools",
     element: (
       <>
-        <Header />
+        <Header route="tools"/>
         <Tools />
         <Footer />
       </>
@@ -57,7 +57,7 @@ const router = createBrowserRouter([
     path: "*",
     element: (
       <>
-        <Header />
+        <Header route=""/>
         <NotFound />
         <Footer />
       </>

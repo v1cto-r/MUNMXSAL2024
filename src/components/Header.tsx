@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useWindowScroll } from 'react-use';
 import { Link } from "react-router-dom";
 
-function Header() {
+function Header({route}: {route: string}) {
   const [scroll, setScroll] = useState(false);
   const [active, setActive] = useState(false);
 
@@ -45,7 +45,7 @@ function Header() {
     nav ? nav.current!.classList.toggle('active') : null;
   }
 
-  const [activeMenu, setActiveMenu] = useState("home");
+  const [activeMenu, setActiveMenu] = useState(route);
 
   function handleClick (menu: string) {
     setActiveMenu(menu);
