@@ -1,104 +1,104 @@
 {
-  "List": ["CS","AG","OMS","UNESCO","ACNUR","CLDM","ECOSOC","ILO","CSW","SC","GA","IAEA","UNTOC","OHCHR","PANEM","EU","AL","UNFCCC","SCSHT","UNICEF"],
+  "List": ["CS","AG","OMS","CNULCT","ACNUR","CLDM","ECOSOC","ILO","CSW","SC","GA","IAEA","UNTOC","OHCHR","PANEM","EU","AL","UNFCCC","SCSHT","UNICEF"],
   "CS":[
-    "Consejo de Seguridad",
-    "Lorem ipsum dolor sit amet",
+    "Consejo de Seguridad (ES)",
+    "Acciones para resolver el conflicto Huíti en Yemen",
     "https://drive.google.com/file/d/17yI2f7Q-GQ0weUZBmc5PcQ-MAtrzcs5J/view?usp=sharing",
     ""
   ],
   "AG":[
-    "Asamblea General",
-    "Lorem ipsum dolor sit amet",
+    "Asamblea General (ES)",
+    "El reconocimiento de Taiwán como país independiente que sustentaría su inclusión en decisiones políticas de las Naciones Unidas",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "OMS":[
-    "Organización Mundial de la Salud",
-    "Lorem ipsum dolor sit amet",
+    "Organización Mundial de la Salud (ES)",
+    "Examinar las consecuencias de la modificación genética humana",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
-  "UNESCO":[
-    "Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura",
-    "Lorem ipsum dolor sit amet",
+  "CNULCT":[
+    "Oficina de las Naciones Unidas Contra el Terrorismo (ES)",
+    "Erradicar la influencia que ejercen las organizaciones terroristas sobre las instituciones gubernamentales internacionales",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "ACNUR":[
-    "Oficina del Alto Comisionado de las Naciones Unidas para los Refugiados",
-    "Lorem ipsum dolor sit amet",
+    "Oficina del Alto Comisionado de las Naciones Unidas para los Refugiados (ES)",
+    "Proporcionar ciudadanías para refugiados y personas apátridas.",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "CLDM":[
-    "Comité de Legislación y Derecho Mágico",
-    "Lorem ipsum dolor sit amet",
+    "Comité de Legislación y Derecho Mágico (ES)",
+    "El ministerio mágico contra Sirius Black",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "ECOSOC":[
-    "Consejo Económico y Social de las Naciones Unidas",
-    "Lorem ipsum dolor sit amet",
+    "Consejo Económico y Social de las Naciones Unidas (ES)",
+    "El impacto adverso derivado de prácticas de colonialismo verde",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "ILO":[
-    "Organización Internacional del Trabajo",
-    "Lorem ipsum dolor sit amet",
+    "Organización Internacional del Trabajo (ES)",
+    "Asegurar condiciones optimas y libres de esclavitud para la fuerzas laborales migrantes en sus países destino",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "CSW":[
-    "Comisión de la Condición Jurídica y Social de la Mujer",
-    "Lorem ipsum dolor sit amet",
+    "Comisión de la Condición Jurídica y Social de la Mujer (ES)",
+    "Inclusion of transgender women in the National Armed Forces",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "SC":[
-    "United Nations Security Council",
-    "Lorem ipsum dolor sit amet",
+    "United Nations Security Council (EN)",
+    "Establishing clear measurements to address war crimes in the Israel-Palestine Conflict",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "GA":[
-    "General Assembly",
-    "Lorem ipsum dolor sit amet",
+    "General Assembly (EN)",
+    "Evaluating the Efficacy of Security Council Veto Powers, with a Focus on Potential Reforms and Insights from Historical Resolutions, including UNGA Resolution 377",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "IAEA":[
-    "International Atomic Energy Agency",
-    "Lorem ipsum dolor sit amet",
+    "International Atomic Energy Agency (EN)",
+    "Signing the Non-proliferation of Nuclear Weapons (NPT) by North Korea and other non-signatories states",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "UNTOC":[
-    "United Nations Convention against Transnational Organized Crime",
-    "Lorem ipsum dolor sit amet",
+    "United Nations Convention against Transnational Organized Crime (EN)",
+    "Drug Trafficking and Production in Syria followed by Potential Dangers",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "OHCHR":[
-    "Office of the High Commissioner for Human Rights",
-    "Lorem ipsum dolor sit amet",
+    "Office of the High Commissioner for Human Rights (EN)",
+    "Creation of new measurements to prevent the recruitment of soldier kids in Colombia and border countries",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "PANEM":[
-    "Panem Governance and Policy Council",
-    "Lorem ipsum dolor sit amet",
+    "Panem Governance and Policy Council (EN)",
+    "Addressing the possibility of holding symbolic Hunger Games with the Capitol's children",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "EU":[
-    "Council of the European Union",
-    "Lorem ipsum dolor sit amet",
+    "Council of the European Union (EN)",
+    "Discussing the asylum of Chechens in the EU and LGBTQ policies in Chechnya.",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "AL":[
-    "Arab League",
-    "Lorem ipsum dolor sit amet",
+    "Arab League (EN)",
+    "Inequality, Violence and Discrimination towards women in the Middle East",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "UNFCCC":[
-    "United Nations Framework Convention on Climate Change",
-    "Lorem ipsum dolor sit amet",
+    "United Nations Framework Convention on Climate Change (EN)",
+    "Implementation of an international framework for The Carbon Tax Law",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "SCSHT":[
-    "Special Conference on Slavery and Human Trafficking",
-    "Lorem ipsum dolor sit amet",
+    "Special Conference on Slavery and Human Trafficking (EN)",
+    "Minimizing the Alarming Rate of Human Trafficking Aided by Social Media",
     "https://drive.google.com/drive/u/0/my-drive"
   ],
   "UNICEF":[
-    "United Nations International Children's Emergency Fund",
-    "Lorem ipsum dolor sit amet",
+    "United Nations International Children's Emergency Fund (EN)",
+    "otecting And Ensuring Rights Of Children in Gaza On The Israeli-Palestinian Conflict",
     "https://drive.google.com/drive/u/0/my-drive"
   ]
 }
