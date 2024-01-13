@@ -3,7 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import plainLogo from '/plain.svg'
 import data from '../data/schedule.json'
-import pic2 from '/about/Pic2.jpg'
+import aboutImg from '/about/about.webp'
 import '../styles/Landing.css';
 import DoubleButton from './DoubleButton';
 
@@ -159,7 +159,7 @@ function Schedule() {
 function Photo() {
   return (
     <section id='photo' className='landing-section'>
-      <div id='mun-photo'><img src={pic2}/></div>
+      <div id='mun-photo'><img src={aboutImg}/></div>
       
     </section>
   )
