@@ -21,8 +21,8 @@ function DoubleButton(props:any) {
 
   return (
     <div className={`double-button ${ extraClass }`}>
-      <button className='open-part' onClick={openLink}>{text}</button>
-      <button className='download-part' onClick={downloadLink}>
+      <button className='open-part' >{text}</button>
+      <button className='download-part' >
         <img src={download} alt='download icon' className='download-icon'/>
       </button>
     </div>
