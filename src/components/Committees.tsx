@@ -14,7 +14,7 @@ function Committees () {
   for (let i = 0; i < list.length; i++) {
     let com = list[i];
     let comInfo = jsonData[com];
-    committees.push(<CommitteeCard img={'/committees/'+com+'.webp'} name={comInfo[0]} topic1={comInfo[1]} id={com} url={comInfo[2]}/>)
+    committees.push(<CommitteeCard img={'/committees/'+com+'.webp'} name={comInfo[0]} topic1={comInfo[1]} id={com} url={comInfo[2]} lang={comInfo[3]}/>)
   }
 
   const [search, setSearch] = useState('');
@@ -71,7 +71,7 @@ function CommitteeCard(props:any) {
         </LazyLoad>
 
         <div className='committee-info'>
-          <h2 className='committee-name'>{props.name}</h2>
+          <h2 className='committee-name'>{props.name} <span>({props.lang})</span></h2>
           <div className='topics'>
             <div className='topic1'>
               <h3 className='committee-topic'>Topic: {props.topic1}</h3>

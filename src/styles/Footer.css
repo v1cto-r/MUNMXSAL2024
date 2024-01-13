@@ -1,5 +1,5 @@
 footer {
-  background: var(--not-black);
+  background: var(--less-black);
   width: 100vw;
   height: fit-content;
   display: flex;

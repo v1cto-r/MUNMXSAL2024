@@ -26,6 +26,7 @@
   --head-blue: #00274e;
   --test-blue: #003b75;
   --card-black: #000e1b;
+  --less-black: #141414;
   --gradient: linear-gradient(90deg, #70C573 6.37%, #40BFB3 18.93%, #03A8E8 30.31%, #2E3D9C 42.49%, #832897 57.66%, #EF242A 71.23%, #F78722 84.61%, #EFEF24 97.7%);
 }
 
@@ -72,7 +73,7 @@ section {
   height: fit-content;
   flex-direction: column;
   border-bottom: 1rem solid;
-  background: var(--not-black);
+  background: var(--less-black);
   color: var(--not-white);
 }
 
