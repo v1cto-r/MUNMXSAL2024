@@ -3,7 +3,19 @@ import download from '/download.svg';
 function DoubleButton(props:any) {
   const url = props.url;
   const text = props.text;
+  const isCommittee = props.committee;
   const extraClass = props.extraClass;
+
+  if (isCommittee) {
+    return (
+      <div className={`double-button ${ extraClass }`}>
+        <button className='open-part' >{text}</button>
+        <button className='download-part' >
+          <img src={download} alt='download icon' className='download-icon'/>
+        </button>
+      </div>
+    )
+  }
 
   function getDownloadUrl(str:string) {
     let parts = str.split("/");
@@ -21,8 +33,8 @@ function DoubleButton(props:any) {
 
   return (
     <div className={`double-button ${ extraClass }`}>
-      <button className='open-part' >{text}</button>
-      <button className='download-part' >
+      <button className='open-part' onClick={openLink}>{text}</button>
+      <button className='download-part' onClick={downloadLink}>
         <img src={download} alt='download icon' className='download-icon'/>
       </button>
     </div>

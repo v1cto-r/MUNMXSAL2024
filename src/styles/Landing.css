@@ -123,6 +123,10 @@ h6 {
   padding: 0.4rem 0;
 }
 
+#schedule {
+  height: fit-content;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;

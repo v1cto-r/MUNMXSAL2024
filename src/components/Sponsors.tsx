@@ -6,7 +6,7 @@ function Sponsors () {
     <main>
       <div id="sponsors">
         <div id='intro'>
-          <h1>Sponsors</h1>
+          <h1>Sponsors Coming Soon...</h1>
         </div>
       </div>
     </main>

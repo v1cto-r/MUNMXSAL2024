@@ -65,7 +65,7 @@ function Footer() {
         </div>
 
         <div id='sponsors-footer'>
-          <h5>Sponsors</h5>
+          <h5>Sponsors Coming Soon...</h5>
         </div>
         
         <div id='ending'>

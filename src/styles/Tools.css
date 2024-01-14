@@ -13,6 +13,10 @@
   border-image-slice: 1;
 }
 
+.tools-section:nth-child(odd) {
+  flex-direction: column;
+}
+
 .tools-img {
   width: 100%;
   height: 40%;
@@ -46,5 +50,9 @@
   .info {
     height: 100%;
     width: 30%;
+  }
+
+  .tools-section:nth-child(odd) {
+    flex-direction: row-reverse;
   }
 }

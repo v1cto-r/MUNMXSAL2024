@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import plainLogo from '/plain.svg'
 import data from '../data/schedule.json'
+import data2 from '../data/links.json'
 import aboutImg from '/about/about.webp'
 import '../styles/Landing.css';
 import DoubleButton from './DoubleButton';
@@ -119,6 +120,7 @@ function AboutMun(props:any) {
 
 function Schedule() {
   const jsonData:any = data;
+  const jsonDataLinks:any = data2
   const day1 = [];
   const day2 = [];
 
@@ -134,7 +136,7 @@ function Schedule() {
     <section id='schedule' className='landing-section'>
       <div id='titles'>
         <h5>Schedule </h5>
-        <DoubleButton url={jsonData.Link} text={"Download"}/>
+        <DoubleButton url={jsonDataLinks.schedule} text={"Download"}/>
       </div>
       <div id='times'>
         <div id='day1' className='days'>

@@ -53,7 +53,7 @@ main {
 }
 
 #intro {
-  height: 50vh;
+  height: 50lvh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -117,9 +117,13 @@ button:hover {
   scale: 1.01;
 }
 
+h1 {
+  text-align: center;
+}
+
 @media screen and (min-width: 795px) {
   section {
     flex-direction: row;
-    height: 90vh;
+    height: 90lvh;
   }
 }

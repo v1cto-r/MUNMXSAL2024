@@ -75,7 +75,7 @@ function CommitteeCard(props:any) {
           <div className='topics'>
             <div className='topic1'>
               <h3 className='committee-topic'>Topic: {props.topic1}</h3>
-              <DoubleButton url={props.url} text={"Backgrounds TBA Soon..."} extraClass={"committee-button"}/>
+              <DoubleButton url={props.url} text={"Coming Soon..."} extraClass={"committee-button"} committee={true}/>
             </div>
           </div>
         </div>
