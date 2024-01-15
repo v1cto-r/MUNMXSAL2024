@@ -29,6 +29,13 @@ function Header({route}: {route: string}) {
       }
     }
   }, [y]);
+
+  function getWindowDimensions() {
+    const { innerWidth: width } = window;
+    return {
+      width,
+    };
+  }
   
   const activate = () => {
     if (active) {
@@ -49,7 +56,9 @@ function Header({route}: {route: string}) {
 
   function handleClick (menuItem: string) {
     setActiveMenu(menuItem);
-    menu ? menu.current!.classList.toggle('active') : null;
+    if (getWindowDimensions().width < 920) {
+      activate();
+    }
   }
 
   return (
