@@ -111,8 +111,7 @@ function AboutMun(props:any) {
     <section id='about-mun' className='landing-section' >
       <img ref={props.reference} src={plainLogo} alt='MUNMX Logo Without Text'/>
       <div className='text'>
-        <h5>About MUNMX Saltillo</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h5>MUNMX Saltillo</h5>
       </div>
     </section>
   )

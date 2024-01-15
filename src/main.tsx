@@ -54,6 +54,14 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path: "121123",
+    element: (
+      <>
+        <h1 style={{color: "white", fontFamily: "Fredoka"}}> {"<3"} </h1>
+      </>
+    ),
+  },
+  {
     path: "*",
     element: (
       <>

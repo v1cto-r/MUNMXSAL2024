@@ -49,6 +49,7 @@ function Header({route}: {route: string}) {
 
   function handleClick (menu: string) {
     setActiveMenu(menu);
+    activate();
   }
 
   return (
