@@ -1,5 +1,6 @@
 import data from '../data/links.json'
 import img1 from '/tools/img1.webp'
+import img2 from '/tools/img2.webp'
 import '../styles/Tools.css'
 import DoubleButton from './DoubleButton';
 
@@ -21,7 +22,7 @@ function Tools () {
           </div>
         </section>
         <section className='tools-section'>
-          <img src={img1} alt='' id='parliamentary-img' className='tools-img'/>
+          <img src={img2} alt='' id='parliamentary-img' className='tools-img'/>
           <div className='info' id='position-paper'>
             <h3>Parliamentary Procedure</h3>
             <DoubleButton url={jsonData.parliamentaryEN} text='English'/>

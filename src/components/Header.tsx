@@ -47,9 +47,9 @@ function Header({route}: {route: string}) {
 
   const [activeMenu, setActiveMenu] = useState(route);
 
-  function handleClick (menu: string) {
-    setActiveMenu(menu);
-    activate();
+  function handleClick (menuItem: string) {
+    setActiveMenu(menuItem);
+    menu ? menu.current!.classList.toggle('active') : null;
   }
 
   return (
