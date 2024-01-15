@@ -112,6 +112,7 @@ function AboutMun(props:any) {
       <img ref={props.reference} src={plainLogo} alt='MUNMX Logo Without Text'/>
       <div className='text'>
         <h5>MUNMX Saltillo</h5>
+        <p>MUNMX Saltillo is a nationwide model, following a decades-long tradition, where our students are able to get involved with global issues of today's society, while looking for significant and plausible solutions. The model holds the participation of about 600 delegates from different regions of our country, not only encouraging the development of leadership and commitment skills, but also giving them the opportunity to build valuable connections and have a memorable experience.</p>
       </div>
     </section>
   )
