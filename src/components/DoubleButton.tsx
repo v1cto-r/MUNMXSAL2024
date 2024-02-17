@@ -3,7 +3,6 @@ import download from '/download.svg';
 function DoubleButton(props:any) {
   const url = props.url;
   const text = props.text;
-  const isCommittee = props.committee;
   const extraClass = props.extraClass;
 
   /* if (isCommittee) {
