@@ -6,7 +6,7 @@ function DoubleButton(props:any) {
   const isCommittee = props.committee;
   const extraClass = props.extraClass;
 
-  if (isCommittee) {
+  /* if (isCommittee) {
     return (
       <div className={`double-button ${ extraClass }`}>
         <button className='open-part' >{text}</button>
@@ -15,7 +15,7 @@ function DoubleButton(props:any) {
         </button>
       </div>
     )
-  }
+  } */
 
   function getDownloadUrl(str:string) {
     let parts = str.split("/");
