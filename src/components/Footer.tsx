@@ -65,7 +65,24 @@ function Footer() {
         </div>
 
         <div id='sponsors-footer'>
-          <h5>Sponsors Coming Soon...</h5>
+          <div className='row'>
+            <div className='sponsor-img'>
+              <img src="/sponsors/sponsor1.webp" alt="sponsor"/>
+            </div>
+            <div className='sponsor-img'>
+              <img src="/sponsors/sponsor5.webp" alt="sponsor"/>
+            </div>
+            <div className='sponsor-img'>
+              <img src="/sponsors/sponsor3.webp" alt="sponsor"/>
+            </div>
+            <div className='sponsor-img'>
+              <img src="/sponsors/sponsor4.webp" alt="sponsor"/>
+            </div>
+            <div className='sponsor-img'>
+              <img src="/sponsors/sponsor2.webp" alt="sponsor"/>
+            </div>
+
+          </div>
         </div>
         
         <div id='ending'>
