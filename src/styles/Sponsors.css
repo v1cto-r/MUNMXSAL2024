@@ -9,15 +9,15 @@
 
 #sponsors-logos .row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 1rem;
+  padding: 0;
 }
 
 .sponsor-img {
-  width: 15%;
+  width: 60%;
   aspect-ratio: 1/1;
   padding: 0 1rem;
 }
@@ -26,4 +26,15 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+@media screen and (min-width: 920px) {
+  #sponsors-logos .row {
+    flex-direction: row;
+    padding: 1rem;
+  }
+
+  .sponsor-img {
+    width: 15%;
+  }
 }
