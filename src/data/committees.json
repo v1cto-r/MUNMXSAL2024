@@ -1,5 +1,5 @@
 {
-  "List": ["SCSHT","PANEM","OHCHR","ACNUR","GA","ILO","CLDM","EU","IAEA","ECOSOC","CNULCT","UNTOC","CS","CSW","SC","OMS","AL","INTERPOL","AG","UNICEF","UNFCCC","HSC","IOC"],
+  "List": ["SCSHT","PANEM","OHCHR","ACNUR","GA","ILO","CLDM","EU","IAEA","ECOSOC","CNULCT","UNTOC","CS","CSW","SC","OMS","AL","INTERPOL","AG","UNICEF","UNFCCC","HSC","IOC","FSC"],
   "SCSHT":[
     "Special Conference on Slavery and Human Trafficking",
     "Minimizing the Alarming Rate of Human Trafficking Aided by Social Media.",
@@ -160,5 +160,12 @@
     "https://drive.google.com/file/d/1FkZDLWo-AwHO4s8_YQ63YFA0m8C_uA3C/view?usp=sharing",
     "EN",
     "23"
+  ],
+  "FSC":[
+    "Futuristic Security Council",
+    "Exploring the risks caused by advancements in biotechnology.",
+    "https://drive.google.com/file/d/13iCWSYjG81lrr4N1vRrCrvsT5h4dVZZa/view?usp=sharing",
+    "EN",
+    "24"
   ]
 }
