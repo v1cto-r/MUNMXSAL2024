@@ -73,6 +73,9 @@ function Footer() {
               <img src="/sponsors/sponsor5.webp" alt="sponsor"/>
             </div>
             <div className='sponsor-img'>
+              <img src="/sponsors/sponsor6.webp" alt="sponsor"/>
+            </div>
+            <div className='sponsor-img'>
               <img src="/sponsors/sponsor3.webp" alt="sponsor"/>
             </div>
             <div className='sponsor-img'>

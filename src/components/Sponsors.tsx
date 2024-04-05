@@ -17,7 +17,7 @@ function Sponsors () {
               <img src="/sponsors/sponsor5.webp" alt="sponsor"/>
             </div>
             <div className="sponsor-img">
-              <img src="/sponsors/sponsor3.webp" alt="sponsor"/>
+              <img src="/sponsors/sponsor6.webp" alt="sponsor"/>
             </div>
           </div>
           <div className="row">
@@ -26,6 +26,9 @@ function Sponsors () {
             </div>
             <div className="sponsor-img">
               <img src="/sponsors/sponsor2.webp" alt="sponsor"/>
+            </div>
+            <div className="sponsor-img">
+              <img src="/sponsors/sponsor3.webp" alt="sponsor"/>
             </div>
           </div>
         </section>
