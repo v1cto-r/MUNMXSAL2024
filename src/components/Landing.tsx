@@ -31,7 +31,7 @@ function Countdown() {
   const[minutes, setMinutes] = useState(0);
   const[seconds, setSeconds] = useState(0);
 
-  let countDownDate = new Date("Apr 26, 2024 00:00:00").getTime();
+  let countDownDate = new Date("Apr 26, 2024 15:30:00").getTime();
 
   var x = setInterval(function() {
     let now = new Date().getTime();
