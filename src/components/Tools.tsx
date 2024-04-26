@@ -2,6 +2,7 @@ import data from '../data/links.json'
 import img1 from '/tools/img1.webp'
 import img2 from '/tools/img2.webp'
 import img3 from '/tools/img3.webp'
+import img4 from '/tools/img4.webp'
 import '../styles/Tools.css'
 import DoubleButton from './DoubleButton';
 
@@ -16,8 +17,16 @@ function Tools () {
           <h1>MUN Tools</h1>
         </div>
         <section className='tools-section'>
-          <img src={img1} alt='' id='position-img' className='tools-img'/>
+          <img src={img4} alt='' id='position-img' className='tools-img'/>
           <div className='info' id='position-paper'>
+            <h3 style={{textAlign: "center"}}>Preambulatory and Operative Clauses</h3>
+            <DoubleButton url={jsonData.clausesEN} text='English'/>
+            <DoubleButton url={jsonData.clausesES} text='Español'/>
+          </div>
+        </section>
+        <section className='tools-section'>
+          <img src={img1} alt='' id='position-img' className='tools-img'/>
+          <div className='info' id='position-paper'>|
             <h3>Position Paper Outline</h3>
             <DoubleButton url={jsonData.position} text='Open'/>
           </div>
