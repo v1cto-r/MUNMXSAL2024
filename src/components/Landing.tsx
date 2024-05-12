@@ -37,10 +37,10 @@ function Countdown() {
     let now = new Date().getTime();
     let distance = countDownDate - now;
     
-    setDays(Math.floor(distance / (1000 * 60 * 60 * 24)));
-    setHours(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
-    setMinutes(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
-    setSeconds(Math.floor((distance % (1000 * 60)) / 1000));
+    setDays(Math.floor(0));
+    setHours(Math.floor(0));
+    setMinutes(Math.floor(0));
+    setSeconds(Math.floor(0));
 
     if (distance < 0) {
       clearInterval(x);
@@ -50,6 +50,7 @@ function Countdown() {
   return (
     <div id="landing">
       <span><h1>MUNMX</h1><h2>2024</h2></span>
+      <h3>Thank you all! See you next year!</h3>
       <div id="countdown">
         <span>
           <h3 id="days-amount">{days}</h3>
